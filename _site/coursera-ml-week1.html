@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>DeepSight | Coursera ML - Week 1</title>
+    <meta name="description" content="I. Introduction">
+
+    <link rel="stylesheet" href="/css/main.css">
+
+    <link rel="canonical" href="http://0.0.0.0:4000/coursera-ml-week1">
+    <link rel="alternate" type="application/rss+xml" title="DeepSight" href="http://0.0.0.0:4000/feed.xml" />
+
+    <!--[if lt IE 9]>
+        <script src="/js/vendor/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+
+  <body class="">
+    <!-- if the user has javascript disabled they can still use the menu -->
+<noscript>
+    <div class="no-js-menu clearfix">
+        <ul>
+            
+                <li><i class="fa fa-home"></i><a href="/">home</a></li>
+            
+                <li><i class="fa fa-group"></i><a href="/about">about</a></li>
+            
+                <li><i class="fa fa-dashboard"></i><a href="/project">project</a></li>
+            
+                <li><i class="fa fa-plane"></i><a href="/contact">contact</a></li>
+            
+                <li><i class="fa fa-github"></i><a href="http://www.naver.com">github</a></li>
+            
+        </ul>
+    </div>
+</noscript>
+<!-- end no script -->
+
+    <header class="hero-image" style='background-image: url(/img/feature-coursera_ml-top.jpg);'>
+    <span class="menu-trigger animated fadeInDown">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
+
+    <div id="menu-target">
+    <ul>
+        
+            <li><i class="fa fa-home"></i><a href="/">home</a></li>
+        
+            <li><i class="fa fa-group"></i><a href="/about">about</a></li>
+        
+            <li><i class="fa fa-dashboard"></i><a href="/project">project</a></li>
+        
+            <li><i class="fa fa-plane"></i><a href="/contact">contact</a></li>
+        
+            <li><i class="fa fa-github"></i><a href="http://www.naver.com">github</a></li>
+        
+    </ul>
+</div>
+
+</header>
+
+<main class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-8 single-content-sidebar">
+
+            <h1>Coursera ML - Week 1</h1>
+
+            <h3 id="i-introduction">I. Introduction</h3>
+
+<h2 id="welcome">1. Welcome</h2>
+
+<p>(1) Welcome to Machine Learning</p>
+
+<h2 id="introduction">2. Introduction</h2>
+
+<p>(1) Welcome</p>
+
+<p>(2) Supervised Learning</p>
+
+<p>주어지는 데이터 내에 정답이 들어있다. Regression은 예를 들면 주택 가격과 같은  continuous value의 결과를 예측하는 것이며, Classification은 예를 들면 암이 악성인가 양성인가와 같은 discrete value의 결과를 예측하는 것이다.</p>
+
+<p>(3) Unsupervised Learning</p>
+
+<p>주어지는 데이터 내에 정답이 들어있지 않다. 그러므로 데이터 내에서 특정 structure를 찾는 문제로 귀결되며 이를 Clustering이라 한다. 예를 들어 구글 뉴스에서 뉴스들을 카테고리별로 묶는 것이 예가 될 수 있다.</p>
+
+<h3 id="ii-linear-regression-with-one-variable">II. Linear Regression with One Variable</h3>
+
+<h2 id="model-and-cost-function">1. Model and Cost Function</h2>
+
+<p>Supervised Learning의 한 종류인 Linear Regression에 대해 알아 본다.</p>
+
+<p>(1) Model Representation</p>
+
+<p>Learning algorithm에 training set을 입력하여 출력으로 없게 되는 것을 hypothesis 라고 한다. 이 hypothesis에 test set을 입력하여 결과로 구하게 되는 것이 예측값이 된다. 이를 방정식으로 표현하면 아래와 같다.</p>
+
+<p><img src="img/post-assets/c_ml_week1_image_0.png" alt="image alt text" /></p>
+
+<p>(2) Cost Function</p>
+
+<p>우리가 가지고 있는 데이터에 가장 적합한 직선을 어떻게 그려줄 것인가? 직선의 형태는 θ0 과 θ1 의 값에 좌우된다. 그러므로 이 문제는 결국  θ0 의 값과 θ1 의 값을 어떻게 정해줄 것인가로 귀결된다.</p>
+
+<p>가장 쉽게 생각해 볼 수 있는 아이디어는 hθ(x) 의 값이 training example (x,y) 에서의 여러개의 y의 값들과 최대한 가깝게 되도록 θ0 과 θ1 의 값을 설정하는 것이 될 것이다. hθ(x) 와 y 의 값의 차이에 제곱을 해 주는 방식을 Squared Error Function이라고 하는데 우리는 앞으로 이를 Cost Function으로 사용하게 될 것이다.</p>
+
+<p><img src="img/post-assets/c_ml_week1_image_1.png" alt="image alt text" /></p>
+
+<p><img src="img/post-assets/c_ml_week1_image_2.png" alt="image alt text" /></p>
+
+<p>(3) Cost Function - Intuition I</p>
+
+<p>Hypothesis Function 인 hθ(x) 에서 θ0 = 0 이라고 가정하면 hθ(x) = θ1x 가 된다. Training example이 각각 (1,1), (2,2), (3,3) 이라고 하자. 다양한 θ1 값에 따라 Cost Function을 그려보자. 결국 θ1 = 1 일 때 Cost Function인 J(θ) = 0 으로 최소값을 가짐을 알 수 있다. 이처럼 Cost Function을 최소화하는 θ1 값을 구하는 것이 우리의 목표가 된다.</p>
+
+<p>(4) Cost Function - Intuition II</p>
+
+<p>이번에는 θ0 ≠ 0 인 경우를 생각해 보자. 2개의 θ를 가지기 때문에 3차원 형태의 Cost Function을 가지게 된다. 이를 우리는 등고선 형태로 표현할 수 있는데, 이 경우에도 마찬가지로 Cost Function인 J(θ0 , θ1) 을 최소화하는 θ0 , θ1 을 찾아내는 것이 우리의 목표가 된다.</p>
+
+<h2 id="parameter-learning">2. Parameter Learning</h2>
+
+<p>(1) Gradient Descent</p>
+
+<p>Gradient Descent는 최저점에 다르기 위한 방식으로, 언덕에 서서 360도 둘러보면서 어떤 방향으로 발을 내딛어야 가장 빨리 내려갈 수 있을 지 생각하는 것을 연상하면 된다. 그리고 그 곳으로 이동한다. 최저점에 다다를 때까지 이를 반복한다. 이를 Gradient Descent Algorithm이라 하며 아래와 같이 수식으로 나타낼 수 있다.</p>
+
+<p><img src="img/post-assets/c_ml_week1_image_3.png" alt="image alt text" /></p>
+
+<p>α 는 Learning rate라고 하는데 우리가 산에서 내딛는 발걸음의 크기라고 생각하면 된다.</p>
+
+<p><img src="img/post-assets/c_ml_week1_image_4.png" alt="image alt text" />는 Derivative term이다.</p>
+
+<p>(2) Gradient Descent Intuition</p>
+
+<p>Detivative term 은 해당 지점에서의 기울기이다. 기울기가 + 인 경우에 θj 값은 점차 감소하며, 기울기가 - 인 경우에 θj 값은 점차 증가하게 된다.</p>
+
+<p>Learning rate은 너무 작으면 최저점으로 가는 속도가 느려지게 된다. 반대로 너무 크면 overshooting 하여 convergence에 실패하거나 심지어는 diverge하게 된다.</p>
+
+<p>(3) Gradient Descent for Linear Regression</p>
+
+<p>지금까지 살펴 본 Gradient Descent 를 Linear Regression에 적용해 보자. 미분을 이용해 아래와 같은 식을 도출하게 된다.</p>
+
+<p><img src="img/post-assets/c_ml_week1_image_5.png" alt="image alt text" /></p>
+
+<p>(참고)</p>
+
+<p>지금까지 배운 Gradient Descent 는 “Batch” Gradient Descent로 전체 training set을 한꺼번에 처리하는 방식이다. SGD (Stochastic Gradient Descent), Mini-Batch Gradient Descent 등은 나중에 학습하게 된다.</p>
+
+<p>(참고)</p>
+
+<p>Gradient Descent 외에 Normal Equation Method 를 사용하는 방법도 있다.</p>
+
+<h3 id="iii-linear-algebra-review">III. Linear Algebra Review</h3>
+
+<h2 id="linear-algebra-review">1. Linear Algebra Review</h2>
+
+<p>(1) Matrices and Vectors</p>
+
+<p>Matrix : Rectangular array of numbers (row 수 x column 수)</p>
+
+<p>Vector : n x 1 matrix</p>
+
+<p>(2) Addition &amp; Scalar Multiplication</p>
+
+<p>덧셈 연산은 같은 차원의 매트릭스 간에만 가능하며, 원소 간에 덧셈을 해 주면 된다.<br />
+스칼라 곱은 그냥 각각의 원소에 해당 스칼라 값을 곱해 주면 된다.</p>
+
+<p>(3) Matrix Vector Multiplication</p>
+
+<p>(m x n) x (n x 1) = (m x 1)</p>
+
+<p>즉 매트릭스 x 벡터 = 벡터</p>
+
+<p>(4) Matrix Matrix Multiplication</p>
+
+<p>(m x n) x (n x o) = (m x o)</p>
+
+<p>(5) Matrix Multiplication Properties</p>
+
+<p>행렬간에 교환법칙은 성립하지 않으나 결합법칙은 성립한다.</p>
+
+<p>A x B ≠ B x A</p>
+
+<p>A x B x C = (A x B) x C = A x (B x C)</p>
+
+<p>Identity Matrix는 I로 표기한다.</p>
+
+<p>(6) Inverse &amp; Transpose</p>
+
+<p>A의 Inver Matrix는 A-1 라고 표현한다.</p>
+
+<p>AA-1 = A-1A = I</p>
+
+<p>Inverse Matrix를 가지지 않는 행렬을 singular 또는 degenerate라고 한다. 
+(2 x 3) 의 행렬을 transpose 하면 (3 x 2) 가 된다.</p>
+
+
+        </div><!-- main-content/col -->
+
+        <div class="col-xs-12 col-md-3 col-md-offset-1 single-content-sidebar-area">
+
+            <img src='/img/andy.jpg' class="user-icon " alt="user-image">
+            <div class="meta">
+
+                <div class="sidebar-info">
+                    <a href="/author/andy">Andy</a> in <a href='/category/coursera_ml'>Coursera_ml</a>
+                </div>
+
+                <div class="sidebar-readtime">
+                    <i class="fa fa-bookmark"></i> 34 minute read
+                </div>
+
+            </div>
+
+            <h2 class="favorites">Similar Posts</h2>
+
+            
+                
+                <div class="similar-post">
+                    <a href="/meeting-log"><h3>Meeting Log [2016-08-06]</h3></a>
+                </div>
+                
+            
+        </div>
+
+    </div> <!--/row -->
+
+</main> <!-- /container -->
+
+<footer class="single">
+    <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-2">
+            <img src="/img/andy.jpg" class="user-icon " alt="user-image">
+        </div>
+        <div class="col-xs-12 col-sm-6">
+            <div class="category-list">
+                <p>Published <span>Sep 3, 2016</span></p>
+                <p><a href="/author/andy">Andy</a> in <a href='/category/coursera_ml'>Coursera_ml</a></p>
+
+                <div class="other-catergories">
+                    <h3>Also found in</h3>
+
+                    <ul>
+                        
+                        <li>
+                            <a href='/category/coursera_ml'>Coursera_ml</a>
+                            
+                        </li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+        </div><!-- end col -->
+        <div class="col-xs-12 col-sm-4">
+            <div class="social">
+                <p>Share this article</a>
+                <div class="social-links">
+                    <a class="social-icon" href="#" data-platform="twitter" data-message="" data-url="http://0.0.0.0:4000/coursera-ml-week1"><i class="fa fa-twitter"></i></a>
+
+                    <a class="social-icon" href="#" data-platform="facebook" data-message="" data-url="http://0.0.0.0:4000/coursera-ml-week1"><i class="fa fa-facebook-official"></i></a>
+                    <a class="social-icon" data-platform="mail"  href="mailto:deepsight_team@gmail.com?body=http://0.0.0.0:4000/coursera-ml-week1"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </div><!-- end row -->
+</div>
+
+
+    
+        <div class="row read-another-section">
+    
+        
+        <a href="/meeting-log"><div class="col-sm-6 col-md-2 no-gutter read-another-container">
+            <div class="overlay"></div>
+            <img src='/img/recommend-fire.jpg'>
+            <h3 class="read-another">Meeting Log [2016-08-06]</h3>
+        </div></a>
+        
+    
+</div>
+    
+</footer>
+
+
+    <script src='/js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js'></script>
+    <script src="/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src='/js/vendor/jquery.jpanelmenu.min.js'></script>
+    <script type='application/javascript' src='/js/vendor/fastclick.min.js'></script>
+    
+    <script src=' /js/main.js'></script>
+  </body>
+
+</html>
