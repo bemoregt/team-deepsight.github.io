@@ -8,9 +8,8 @@ We studied the Machine learning class on Coursera since August. The class taught
 After finishing the class, we came up with an idea that it’s time to narrow down and focus on deep learning. After some research, we decided to study Convolutional Neural Network for Visual Recognition (CS231n) from Stanford university, which is well known for its depth, width, and proficiency. The lecture is mainly led by Andrej Karpathy who is now working as a research scientist at OpenAI, and it covers almost everything on deep learning in depth from core concepts to even detailed tips and tricks which are crucial in the real world practice. Its assignment is also notoriously challenging and requires lots of hard work. We’re going to finish studying the lecture including all the assignments by the end of this November.  
 Our next step will be the deep learning project which we wish to have some impact on our society to make it a better place using the capability of ML.
 
-
 ## Coursera - Machine Learning
-[https://www.coursera.org/learn/machine-learning](https://www.coursera.org/learn/machine-learning)  
+[https://www.coursera.org/learn/machine-learning](https://www.coursera.org/learn/machine-learning)   
 * Week1. Intro & Linear Regression with One Variable & Linear Algebra Review
 * Week2. Linear Regression with Multiple Variables & Octave/Matlab Tutorial
 * Week3. Logistic Regression and Regularization
@@ -23,9 +22,8 @@ Our next step will be the deep learning project which we wish to have some impac
 * Week10. Large Scale Machine Learning
 * Week11. Application Example: Photo OCR
 
-
 ## CS231n Convolutional Neural Network for Visual Recognition
-[http://cs231n.stanford.edu](http://cs231n.stanford.edu)
+[http://cs231n.stanford.edu](http://cs231n.stanford.edu)  
 #### Module 1: Neural Network
 * Week1. Image Classification: Data-driven Approach, k-Nearest Neighbor, train/val/test splits
 * Week2. Linear classification: Support Vector Machine, Softmax
