@@ -10,7 +10,7 @@ Our next step will be the deep learning project which we wish to have some impac
 
 
 ## Coursera - Machine Learning
-[https://www.coursera.org/learn/machine-learning](https://www.coursera.org/learn/machine-learning)
+[https://www.coursera.org/learn/machine-learning](https://www.coursera.org/learn/machine-learning)  
 * Week1. Intro & Linear Regression with One Variable & Linear Algebra Review
 * Week2. Linear Regression with Multiple Variables & Octave/Matlab Tutorial
 * Week3. Logistic Regression and Regularization
