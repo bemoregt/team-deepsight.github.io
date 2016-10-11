@@ -10,6 +10,7 @@ Our next step will be the deep learning project which we wish to have some impac
 
 ## Coursera - Machine Learning
 [https://www.coursera.org/learn/machine-learning](https://www.coursera.org/learn/machine-learning)   
+
 * Week1. Intro & Linear Regression with One Variable & Linear Algebra Review
 * Week2. Linear Regression with Multiple Variables & Octave/Matlab Tutorial
 * Week3. Logistic Regression and Regularization
@@ -24,7 +25,9 @@ Our next step will be the deep learning project which we wish to have some impac
 
 ## CS231n Convolutional Neural Network for Visual Recognition
 [http://cs231n.stanford.edu](http://cs231n.stanford.edu)  
+
 #### Module 1: Neural Network
+
 * Week1. Image Classification: Data-driven Approach, k-Nearest Neighbor, train/val/test splits
 * Week2. Linear classification: Support Vector Machine, Softmax
 * Week3. Optimization: Stochastic Gradient Descent
