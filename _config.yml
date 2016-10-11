@@ -11,7 +11,7 @@ nav_list:
   About : ['about', '/about', 'fa-group']
   Project : ['project', '/project', 'fa-dashboard']
   Contact : ['contact', '/contact', 'fa-plane']
-  Github : ['github', 'http://www.naver.com', 'fa-github']
+  Github : ['github', 'https://github.com/team-deepsight', 'fa-github']
   # Author : ['Author', '/author/michelle', 'fa-user']
 single_footer: '<p>"A breakthrough in machine learning" DeepSight &copy; 2016</p>'
 footer_links:
