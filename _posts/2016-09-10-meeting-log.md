@@ -1,0 +1,21 @@
+---
+layout: post-sidebar
+title: "Meeting Log [2016-09-10]"
+date: 2016-09-10 20:00:00
+categories: meeting
+author_name : Jeongeun
+author_url : /author/jeongeun
+author_avatar: jeongeun
+show_avatar : true
+read_time : 1
+feature_image: feature-meeting
+show_related_posts: true
+square_related: recommend-fire
+---
+
+1. Date: 9/10 10:00 AM – 12:00 AM
+2. In attendance: 7 persons 
+3. Agenda: CS231N (Image Classification: Data-driven Approach, k-Nearest Neighbor) 
+4. Comments: It was the first meeting for CS231N lecture, so more members joined. We introduced each other and brainstormed about goals of this study group. In the second phase, we discussed about image classification with data-driven approach and K-nearest neighbor. We got accustomed to concepts for mapping images to certain class. 
+
+

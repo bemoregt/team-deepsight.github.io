@@ -1,0 +1,19 @@
+---
+layout: post-sidebar
+title: "Meeting Log [2016-08-13]"
+date: 2016-08-13 20:00:00
+categories: meeting
+author_name : Jeongeun
+author_url : /author/jeongeun
+author_avatar: jeongeun
+show_avatar : true
+read_time : 1
+feature_image: feature-meeting
+show_related_posts: true
+square_related: recommend-fire
+---
+
+1. Date: 8/13 10:00 AM – 12:00 AM
+2. In attendance: 2 persons 
+3. Agenda: Linear Regression with Multiple Variables 
+4. Comments: Jeongeun explained loss function, gradient descent for multiple variables. Also we reviewed matrix multiplication properties and main functions in Octave.

@@ -1,0 +1,20 @@
+---
+layout: post-sidebar
+title: "Meeting Log [2016-09-03]"
+date: 2016-09-03 20:00:00
+categories: meeting
+author_name : Jeongeun
+author_url : /author/jeongeun
+author_avatar: jeongeun
+show_avatar : true
+read_time : 1
+feature_image: feature-meeting
+show_related_posts: true
+square_related: recommend-fire
+---
+
+1. Date: 9/3 10:00 AM – 12:00 AM
+2. In attendance: 3 persons
+3. Agenda: Neural Networks: Learning 
+4. Comments: Jeongheon explained backpropagation algorithm, gradient checking and initialization of parameters. We solved a quiz and assignment#4.
+

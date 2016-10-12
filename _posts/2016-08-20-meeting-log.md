@@ -1,0 +1,19 @@
+---
+layout: post-sidebar
+title: "Meeting Log [2016-08-20]"
+date: 2016-08-20 20:00:00
+categories: meeting
+author_name : Jeongeun
+author_url : /author/jeongeun
+author_avatar: jeongeun
+show_avatar : true
+read_time : 1
+feature_image: feature-meeting
+show_related_posts: true
+square_related: recommend-fire
+---
+
+1. Date: 8/20 10:00 AM – 12:00 AM
+2. In attendance: 3 persons 
+3. Agenda: Logistic Regression and Regularization
+4. Comments: Jeongheon explained loss function, gradient descent for logistic regression and also mentioned about regularization. We discussed solution for assignment#2.
