@@ -9,4 +9,4 @@ title: Gromit Park
 ---
 
 # Gromit Park
-Gromit is MS on Digital Signal Processing, and has more than 15 years of experience in IT industry including Computer Vision and Pattern Recognition. He is interested in deep learning, and He has high level of proficiency in frequency domain image processing.
+Gromit is an app inventor, deep learner and amateur mathematician. He is MS on Digital Signal Processing, and has more than 17 years of experiences in SW RND industry including Computer Vision and Pattern Recognition. He has high level of proficiency in frequency domain image processing.

@@ -16,7 +16,7 @@ We would like to share our thoughts and achievement on machine learning here to 
 Andy is MS on Computer Science, and has more than 15 years of experience in IT industry including security and mobile/social games. He is deeply interested in machine learning, and is preparing to build a new startup based on deep learning technology.
 
 ### [Gromit Park](/author/gromit/)
-Gromit is MS on Digital Signal Processing, and has more than 15 years of experience in IT industry including Computer Vision and Pattern Recognition. He is interested in deep learning, and He has high level of proficiency in frequency domain image processing.
+Gromit is an app inventor, deep learner and amateur mathematician. He is MS on Digital Signal Processing, and has more than 17 years of experiences in SW RND industry including Computer Vision and Pattern Recognition. He has high level of proficiency in frequency domain image processing.
 
 ### [Jeongeun Yeon](/author/jeongeun/)
 Jeongeun has over 10 years of experience working as a risk management specialist in asset management firms. She is MS on Statistics, and has experience in implementing integrated risk management system with software developers. She has high level of proficiency in SQL programming and analyzing financial data. She wishes to apply machine learning algorithm to build multi-factor model in the near future.
