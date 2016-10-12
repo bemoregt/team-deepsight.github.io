@@ -4,7 +4,7 @@ title: Author
 permalink: author/jeongeun/
 feature_image: default-404
 author_avatar: jeongeun
-author_name: jeongeun
+author_name: Jeongeun
 title: Jeongeun Yeon
 ---
 
