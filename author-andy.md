@@ -4,7 +4,7 @@ title: Author
 permalink: author/andy/
 feature_image: default-404
 author_avatar: andy
-author_name: Andy Kyoseok Song
+author_name: Andy
 title: Andy Kyoseok Song
 ---
 

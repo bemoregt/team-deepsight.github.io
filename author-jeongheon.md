@@ -4,7 +4,7 @@ title: Author
 permalink: author/jeongheon/
 feature_image: default-404
 author_avatar: jeongheon
-author_name: Jeongheon Kim
+author_name: Jeongheon
 title: Jeongheon Kim
 ---
 
