@@ -13,7 +13,7 @@ We would like to share our thoughts and achievement on machine learning here to 
 # Team
 
 ### [Andy Kyoseok Song](/author/andy/)
-Andy is MS on Computer Science, and has more than 15 years of experience in IT industry including security and mobile/social games. He is deeply interested in machine learning, and is preparing to build a new startup based on deep learning technology.
+Andy is a MS on Computer Science, and has more than 15 years of experience in IT industry including Internet security, mobile/social games, etc. He is deeply interested in machine learning, and is preparing to build a new startup based on deep learning technology.
 
 ### [Gromit Park](/author/gromit/)
 Gromit is an app inventor, deep learner and amateur mathematician. He is MS on Digital Signal Processing, and has more than 17 years of experiences in SW RND industry including Computer Vision and Pattern Recognition. He has high level of proficiency in frequency domain image processing.
